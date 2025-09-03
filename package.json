@@ -1,0 +1,25 @@
+{
+  "name": "@anamrazaq/joke-logger",
+  "version": "1.0.1",
+  "description": "Logs a random joke and ASCII art when the server starts.",
+  "main": "index.js",
+  "bin": {
+    "joke-logger": "./index.js"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["joke", "logger", "ascii", "dev-only", "cli", "fun"],
+  "author": "anamrazaq",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.8.2"
+  }
+}
+
